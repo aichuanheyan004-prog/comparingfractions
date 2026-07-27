@@ -1,0 +1,15 @@
+{
+  "name": "Comparing Fractions",
+  "short_name": "Fractions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8faf8",
+  "theme_color": "#0e7c66",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
