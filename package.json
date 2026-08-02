@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "test:unit": "vitest run",
     "test:e2e": "npm run build && playwright test",
-    "test": "npm run test:unit && npm run test:e2e"
+    "test": "npm run test:unit && npm run test:e2e",
+    "indexnow": "node scripts/submit-indexnow.mjs",
+    "indexnow:live": "node scripts/submit-indexnow.mjs --live"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
