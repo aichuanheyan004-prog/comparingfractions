@@ -631,6 +631,7 @@ function Header() {
       <nav aria-label="Primary navigation">
         <a href={pages.home.path}>Calculator</a>
         <a href={pages.guide.path}>How to Compare</a>
+        <a href="/blog/">Blog</a>
         <a href={pages.privacy.path}>Privacy</a>
       </nav>
     </header>
@@ -649,6 +650,7 @@ function Footer() {
           <BookOpen aria-hidden="true" size={17} />
           Guide
         </a>
+        <a href="/blog/">Blog</a>
         <a href={pages.privacy.path}>Privacy</a>
         <a href={pages.terms.path}>Terms</a>
       </nav>
